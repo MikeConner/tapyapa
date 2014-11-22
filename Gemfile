@@ -5,9 +5,7 @@ gem 'rails', '3.2.20'
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
-gem 'sqlite3'
 gem 'thin'
-gem 'jquery-rails'
 
 
 
@@ -16,9 +14,9 @@ gem 'jquery-rails'
 
 
 group :assets do
-gem 'sass-rails', '3.2.6'
-gem 'coffee-rails', '3.2.2'
-gem 'foundation-rails', '5.4.5.0'
+  gem 'sass-rails', '3.2.6'
+  gem 'coffee-rails', '3.2.2'
+  gem 'foundation-rails', '5.4.5.0'
 
   # See https://github.com/sstephenson/execjs#readme for more supported runtimes
   # gem 'therubyracer', :platforms => :ruby
