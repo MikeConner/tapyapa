@@ -21,5 +21,9 @@ test:
 production:
   adapter: postgresql
   database: tap_prod
+  username: rails
+  password: rails!!
+  host: localhost
+  encoding: utf8
   pool: 5
   timeout: 5000
