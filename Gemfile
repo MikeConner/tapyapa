@@ -17,7 +17,7 @@ group :assets do
   gem 'sass-rails', '3.2.6'
   gem 'coffee-rails', '3.2.2'
   gem 'foundation-rails', '5.4.5.0'
-
+  gem "haml", '4.0.1'
   # See https://github.com/sstephenson/execjs#readme for more supported runtimes
   # gem 'therubyracer', :platforms => :ruby
 
