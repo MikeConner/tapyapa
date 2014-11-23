@@ -34,8 +34,13 @@
 }
 
 .prezi {
+  background: url(icon-bg.png) no-repeat center center; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
   background-color: $secondary-color;
-  padding: 2rem;
+  padding: 4rem 0;
   .flex-video {
     margin: 0;
   }
