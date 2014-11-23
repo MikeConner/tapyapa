@@ -35,4 +35,8 @@
 
 .prezi {
   background-color: $secondary-color;
+  padding: 2rem;
+  .flex-video {
+    margin: 0;
+  }
 }
